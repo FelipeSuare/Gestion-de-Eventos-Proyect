@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear un Evento</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../usuario/perfil.html">Perfil</a></li>
+                <li><a href="crear.html">Crear Evento</a></li>
+                <li><a href="lista.html">Eventos</a></li>
+                <li><a href="../usuario/login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="card">
+                <h2>Crear Evento</h2>
+                <form>
+                    <input type="text" placeholder="Escribe el título del Evento" required>
+                    <textarea placeholder="Descripción del Evento" required></textarea>
+                    <input type="date" required>
+                    <input type="time" required>
+                    <input type="text" placeholder="Ubicación" required>
+                    <input type="number" placeholder="Ingresa la capacidad" required>
+                    <button type="submit">Crear Evento</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Camino Real Plataforma de Gestión de Eventos</p>
+    </footer>
+</body>
+</html>

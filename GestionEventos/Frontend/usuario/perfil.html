@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Gestión de Eventos</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="../eventos/crear.html">Crear Evento</a></li>
+                <li><a href="../eventos/lista.html">Eventos</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="card">
+                <h2>Perfil de Usuario</h2>
+                <div class="perfil-info">
+                    <img src="/Frontend/media/perfil.jpg" alt="Foto de Perfil" class="perfil-img">
+                    <h3 id="user-name">Nombre del Usuario</h3>
+                    <p id="user-email">Correo Electrónico: usuario@example.com</p>
+                </div>
+                <div class="events">
+                    <h3>Eventos Registrados</h3>
+                    <ul id="events-list">
+                        <!-- Lista de eventos -->
+                        <!-- Ejemplo:
+                        <li>
+                            <a href="eventos/detalle.html">Nombre del Evento</a>
+                            <p>Fecha: DD/MM/AAAA</p>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+                <div class="update-form">
+                    <form method="post">
+                        <input type="text" name="nombre" id="edit-name" placeholder="Nombre" required>
+                        <input type="email" name="email" id="edit-email" placeholder="Correo Electrónico" required>
+                        <input type="text" name="foto_perfil" id="edit-photo" placeholder="Foto de Perfil (URL)">
+                        <button type="submit">Actualizar Perfil</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Camino Real Plataforma de Gestión de Eventos</p>
+    </footer>
+</body>
+</html>
